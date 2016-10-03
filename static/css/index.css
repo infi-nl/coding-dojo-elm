@@ -1,0 +1,33 @@
+.question-container {
+    width: 500px;
+    min-height: 200px;
+}
+
+.question-container .question-text {
+    font-weight: bold;
+}
+
+.question-container .answer {
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.question-container .answer:hover {
+    color: #56B0FF;
+}
+
+.question-container .answer.correct {
+    color: lime;
+}
+
+.question-container .answer.incorrect {
+    color: red;
+}
+
+.loader-container img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+}
