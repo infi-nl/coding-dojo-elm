@@ -18,6 +18,8 @@ What remains now is setting up VS Code for Elm development. There are 2 plugins 
 - [elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm). Currently version 0.8.2. It can be installed by hitting Ctrl+P and typing "ext install elm". This plugin provides (amongst others) syntax and error highlighting, function information (hover over a function and get the signature) and autocompletion.
 - [elm-format](https://marketplace.visualstudio.com/items?itemName=abadi199.elm-format). Currently version 0.1.0. Install with Ctrl+P and "ext install elm-format". This plugin provides autoformatting of your code by hitting Ctrl+Shift+P and typing "elm format", or with the shortcut Shift+Alt+F.
 
+When all this is done, you should see syntax highlighting when opening an Elm file, and formatting using Shift+Alt+F should work.
+
 ## TODO
 
 Further instructions
