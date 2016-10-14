@@ -11,7 +11,7 @@ Elm implementation of a Quiz App (using the [Infi Quiz API](http://infi-dojo-qui
 3. Install [Visual Studio Code](https://code.visualstudio.com/Download).
 4. Download Elm format (look for the download link in [this page](https://github.com/avh4/elm-format#installation-)). Make sure you download the right version for the Elm Platform version that you installed (so at the moment [For Elm 0.17](https://github.com/avh4/elm-format#for-elm-017)).  Currently the downloaded archive contains 1 executable (the Windows download anyway), called _elm-format.exe_. Make sure you place this executable in a folder that is in your PATH environment variable.
 
-After downloading and installing these tools, when you open a command prompt, you should be able to invoke the commandline tools (like _elm-format_, _elm-repl_ and _elm-reactor_).
+After downloading and installing these tools, when you open a command prompt, you should be able to invoke the commandline tools (like e.g. _elm-format_, _elm-repl_ and _elm-reactor_).
 
 
 
