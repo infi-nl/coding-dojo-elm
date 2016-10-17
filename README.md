@@ -27,7 +27,7 @@ When all this is done, you should see syntax highlighting when opening an Elm fi
 
 1. Clone this repository to your local machine.
 2. In your command line tool:
-  - coding-dojo-elm
+  - navigate to the directory coding-dojo-elm
   - run 'elm-make' and follow the instructions to install the necessary elm packages
   - run 'elm-reactor' to start a web server running your web application
 3. Browse http://localhost:8000/src/Main.elm to see the result
