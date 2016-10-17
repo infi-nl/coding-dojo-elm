@@ -16,8 +16,8 @@ After downloading and installing these tools, when you open a command prompt, yo
 
 
 What remains now is setting up VS Code for Elm development. There are 2 plugins available for VS Code that help with Elm development:
-- [elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm). Currently version 0.8.2. It can be installed by hitting Ctrl+P and typing "ext install elm". This plugin provides (amongst others) syntax and error highlighting, function information (hover over a function and get the signature) and autocompletion.
-- [elm-format](https://marketplace.visualstudio.com/items?itemName=abadi199.elm-format). Currently version 0.1.0. Install with Ctrl+P and "ext install elm-format". This plugin provides autoformatting of your code by hitting Ctrl+Shift+P and typing "elm format", or with the shortcut Shift+Alt+F.
+- [elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm). Currently version 0.8.2. It can be installed by hitting Ctrl+P (Mac: Cmd+P) and typing "ext install elm". This plugin provides (amongst others) syntax and error highlighting, function information (hover over a function and get the signature) and autocompletion.
+- [elm-format](https://marketplace.visualstudio.com/items?itemName=abadi199.elm-format). Currently version 0.1.0. Install with Ctrl+P (Mac: Cmd+P) and "ext install elm-format". This plugin provides autoformatting of your code by hitting Ctrl+Shift+P (Mac: Cmd+Shift+P) and typing "elm format", or with the shortcut Shift+Alt+F.
 
 Make sure you restart VS Code after installing the plugins.
 
