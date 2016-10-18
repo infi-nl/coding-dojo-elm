@@ -30,5 +30,5 @@ When all this is done, you should see syntax highlighting when opening an Elm fi
   - navigate to the directory coding-dojo-elm
   - run 'elm-make' and follow the instructions to install the necessary elm packages
   - run 'elm-reactor' to start a web server running your web application
-3. Browse http://localhost:8000/src/Main.elm to see the result
+3. Browse http://localhost:8000/static/index.html to see the result
 4. If you see the text 'Infi Elm Quiz App' then you have done everything successfully!
