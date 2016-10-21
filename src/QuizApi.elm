@@ -7,7 +7,11 @@ import Task exposing (Task)
 import Models exposing (..)
 
 
--- TODO URLs of JSON decoder tutorials
+--
+-- NOTE: Check http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode and
+-- http://package.elm-lang.org/packages/elm-community/json-extra/1.1.0/Json-Decode-Extra for
+-- documentation regarding Json.Decode that is being used here.
+--
 
 
 apiBaseUrl : String

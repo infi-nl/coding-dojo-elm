@@ -9,6 +9,12 @@ import Models exposing (..)
 import QuizApi
 
 
+--
+-- NOTE: Check https://guide.elm-lang.org/ for online Elm documentation and in
+-- particular https://guide.elm-lang.org/architecture/ for an explanation of the Elm architecture.
+--
+
+
 main : Program Never
 main =
     Html.App.program
