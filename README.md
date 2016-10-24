@@ -32,3 +32,17 @@ When all this is done, you should see syntax highlighting when opening an Elm fi
   - run 'elm-reactor' to start a web server running your web application
 3. Browse http://localhost:8000/static/index.html to see the result
 4. If you see the text 'Infi Elm Quiz App' then you have done everything successfully!
+
+## Assignment
+
+The goal of this coding dojo is to build your own QuizApp web application with Elm, using the provided QuizApp API. More specifically:
+
+1. Retrieve and display a question.
+2. Display the possible answers.
+3. Allow a user to select an answer, verify the answer and show the result.
+
+Additional ideas:
+- Keep score (e.g. how many questions seen total, how many correct answers and wrong answers given, ...).
+- Display average time taken per question.
+- Only allow a certain amount of time to answer a question.
+- Use your imagination!
