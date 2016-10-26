@@ -25,7 +25,7 @@ When all this is done, you should see syntax highlighting when opening an Elm fi
 
 ## Running elm
 
-1. Clone this repository to your local machine.
+1. Clone this repository to your local machine. *Please note: due to a [bug](https://github.com/sbrink/vscode-elm/issues/75) in the [vscode-elm plugin](https://marketplace.visualstudio.com/items/sbrink.elm), error highlighting does not work in VS Code if there's a space in the folder structure that you clone the repository into.*
 2. In your command line tool:
   - navigate to the directory coding-dojo-elm
   - run 'elm-make' and follow the instructions to install the necessary elm packages
