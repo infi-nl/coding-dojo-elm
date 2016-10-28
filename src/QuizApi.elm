@@ -1,4 +1,4 @@
-module QuizApi exposing (fetchRandomQuestion)
+module QuizApi exposing (fetchRandomQuestion, checkAnswer)
 
 import Http
 import Json.Decode as Json exposing ((:=))
@@ -23,6 +23,16 @@ questionDecoder : Json.Decoder Question
 questionDecoder =
     Json.succeed Question
         |: ("Id" := Json.int)
+        |: ("Text" := Json.string)
+        |: ("Answers" := Json.dict Json.string)
+
+
+checkedAnswerDecoder : Json.Decoder CheckedAnswerResult
+checkedAnswerDecoder =
+    Json.succeed CheckedAnswerResult
+        |: ("QuestionId" := Json.int)
+        |: ("AnswerKey" := Json.string)
+        |: ("IsCorrect" := Json.bool)
 
 
 
@@ -37,4 +47,11 @@ fetchRandomQuestion =
 
 
 
--- TODO DOJO: answer checking endpoint (http://infi-dojo-quizapi.azurewebsites.net/answer/1/A)
+-- http://infi-dojo-quizapi.azurewebsites.net/answer/1/A
+
+
+checkAnswer : Int -> String -> Cmd Msg
+checkAnswer questionId answerKey =
+    Http.get checkedAnswerDecoder (apiBaseUrl ++ "/answer/" ++ (toString questionId) ++ "/" ++ answerKey)
+        |> Task.mapError toString
+        |> Task.perform ErrorOccurred AnswerChecked

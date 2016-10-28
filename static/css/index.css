@@ -31,3 +31,15 @@
     width: 30px;
     height: 30px;
 }
+
+.answers-container p {
+    cursor: pointer;
+}
+
+.answers-container p.correct {
+    color: lime;
+}
+
+.answers-container p.incorrect {
+    color: red;
+}

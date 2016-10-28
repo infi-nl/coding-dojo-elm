@@ -1,23 +1,26 @@
 module Models exposing (..)
 
+import Dict
+
 
 type Msg
     = NoOp
     | FetchRandomQuestion
     | QuestionFetched Question
+    | CheckAnswer Int String
+    | AnswerChecked CheckedAnswerResult
     | ErrorOccurred String
 
 
-
--- TODO DOJO: other messages?
-
-
-type alias Question =
-    { id :
-        Int
-        -- TODO DOJO: other fields?
+type alias CheckedAnswerResult =
+    { questionId : Int
+    , answerKey : String
+    , isCorrect : Bool
     }
 
 
-
--- TODO DOJO: other types?
+type alias Question =
+    { id : Int
+    , text : String
+    , answers : Dict.Dict String String
+    }
