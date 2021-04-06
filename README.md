@@ -1,8 +1,11 @@
 
 # elm-quizapp-dojo
 
-Basic Elm implementation of a QuizApp (using the [Infi Quiz API](http://infi-dojo-quizapi.azurewebsites.net/question/random)) to be used during the Infi Coding Dojo in October 2016.
+----
+**⚠ Warning:** This repository is _frozen in time_, and getting no new (security) updates. It is left public, should it help and offer some guidance around its subjects to future visitors. However, for latest guidance on involved subjects, we recommend going to the official sources.
+----
 
+Basic Elm implementation of a QuizApp (using the [Infi Quiz API](http://infi-dojo-quizapi.azurewebsites.net/question/random)) to be used during the Infi Coding Dojo in October 2016.
 
 ## Development environment setup (using VS Code)
 
@@ -12,8 +15,6 @@ Basic Elm implementation of a QuizApp (using the [Infi Quiz API](http://infi-doj
 4. Download Elm format (look for the download link in [this page](https://github.com/avh4/elm-format#installation-)). Make sure you download the right version for the Elm Platform version that you installed (so at the moment [For Elm 0.17](https://github.com/avh4/elm-format#for-elm-017)).  Currently the downloaded archive contains 1 executable (the Windows download anyway), called _elm-format.exe_. Make sure you place this executable in a folder that is in your PATH environment variable.
 
 After downloading and installing these tools, when you open a command prompt, you should be able to invoke the commandline tools (like e.g. _elm-format_, _elm-repl_ and _elm-reactor_).
-
-
 
 What remains now is setting up VS Code for Elm development. There are 2 plugins available for VS Code that help with Elm development:
 - [elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm). Currently version 0.8.2. It can be installed by hitting Ctrl+P (Mac: Cmd+P) and typing "ext install elm". This plugin provides (amongst others) syntax and error highlighting, function information (hover over a function and get the signature) and autocompletion.
